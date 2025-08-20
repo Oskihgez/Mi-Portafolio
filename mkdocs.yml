@@ -1,4 +1,4 @@
-site_name: Plantilla para Documentación
+site_name: Portafolio
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -39,7 +39,7 @@ extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css
 
 nav:
-  - Home: index.md
+  - Inicio: index.md
   - Ejemplo: ejemplo.md
   - Comandos Basicos: comandos.md
   - git: gitcmds.md
