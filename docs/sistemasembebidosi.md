@@ -1,4 +1,4 @@
-# Comparación de Microcontroladores
+## Comparación de Microcontroladores
 
 Como primera actividad se quiere comparar cuatro microcontroladores para la realización de un proyecto mecatrónico a elegir tomando en cuenta las siguientes características:
 
@@ -11,7 +11,7 @@ Como primera actividad se quiere comparar cuatro microcontroladores para la real
   
 ---
 
-## Proyecto a Tener en Cuenta
+### Proyecto a Tener en Cuenta
 
 `AirMouse`
 
@@ -19,6 +19,6 @@ Se tomó como referencia un proyecto ya realizado, porque es más sencillo conoc
 
 ---
 
-# Tabla Comparativa
+### Tabla Comparativa
 
 
