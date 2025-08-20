@@ -119,7 +119,7 @@
 <img src="../recursos/imgs/ibero.jpeg" alt="Diagrama del sistema" width="420">
 ```
 
-![Diagrama del sistema](recursos/imgs/ibero.jpeg)
+![Diagrama del sistema](../recursos/imgs/ibero.jpeg)
 
 <img src="../recursos/imgs/ibero.jpeg" alt="Diagrama del sistema" width="420">
 
