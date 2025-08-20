@@ -39,7 +39,7 @@ extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css
 
 nav:
-  - Home: index.md
+  - Homee: index.md
   - Ejemplo: ejemplo.md
   - Comandos Basicos: comandos.md
   - git: gitcmds.md
