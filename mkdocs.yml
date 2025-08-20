@@ -40,6 +40,6 @@ extra_css:
 
 nav:
   - Inicio: index.md
-  - Ejemplo: ejemplo.md
+  - Sistemas Embebidos I: sistemasembebidosi.md
   - Comandos Basicos: comandos.md
-  - git: gitcmds.md
+  - Git: gitcmds.md
