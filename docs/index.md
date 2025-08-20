@@ -1,14 +1,2 @@
-# Documentación del Proyectooooo Ya sueltame
-
-Bienvenido 👋  
-Esta es una **plantilla** basada en [MkDocs](https://www.mkdocs.org/) + [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) para cursos y proyectos.
-
----
-
-## Empezar rápido (3 pasos)
-
-1. **Edita el nombre del sitio** en `mkdocs.yml`:
-   ```yaml
-   site_name: Documentación del Curso
-   theme:
-     name: material
+# Bienvenido 👋  
+Ésta página web está dedicada a la recopilación de evidencias; ya sean documentos, fotografias, videos, etc. De las actividades realizadas a lo largo del curso de Sistemas Embebidos I y en el futuro se espera incluir evidemcias de pasados y futuros cursos.
