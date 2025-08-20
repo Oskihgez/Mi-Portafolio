@@ -1,4 +1,4 @@
-site_name: Portafolio
+site_name: Portafolio Universitario
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
