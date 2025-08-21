@@ -11,7 +11,7 @@ Como primera actividad se quiere comparar cuatro microcontroladores para la real
   
 ---
 
-### Proyecto a Tener en Cuentaaa
+### Proyecto a Tener en Cuenta
 
 `AirMouse`
 
