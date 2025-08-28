@@ -60,7 +60,7 @@ int main() {
 
 #### Video del Funcionamiento: Conteo Binario
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_ftI-0LC81w?si=wnw4_X4xBERAbGJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
@@ -119,7 +119,7 @@ int main() {
 
 #### Video del Funcionamiento: Ping Pong
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QlIf3CXV05M?si=2pwDABFDf-_5cfmW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
