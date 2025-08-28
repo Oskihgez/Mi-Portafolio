@@ -1,11 +1,13 @@
-# Outputs Basicos
+## Outputs Basicos
+
+---
 
 ## Contador en Binario del 0 al 15
 
 En cuatro leds debe mostrarse cada segundo la representacion binaria del 0 al 15.
 
 ### Código
-
+``` codigo
 C++
 
 #include "pico/stdlib.h"
@@ -40,6 +42,8 @@ int main() {
         }
 }
 }
+
+```
 
 *Esquematico de conexión*
 
