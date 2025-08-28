@@ -73,8 +73,7 @@ Correr un “1” por cuatro LEDs P0..P3 y regresar.
 #### Código
 
 ``` codigo
-
-c++
+C++
 
 #include "pico/stdlib.h"
 #include "hardware/structs/sio.h"
@@ -114,8 +113,8 @@ int main() {
         else if (led_on == 0) direc = 1;
     }
 }
-
 ```
+
 ---
 
 #### Video del Funcionamiento: Ping Pong
@@ -133,8 +132,7 @@ Representar la secuencia de Grey con 4 LEDs.
 #### Código
 
 ``` codigo
-
-c++
+C++
 
 #include "pico/stdlib.h"
 #include "hardware/structs/sio.h"
@@ -202,7 +200,6 @@ int main() {
         sleep_ms(500);
     }
 }
-
 ```
 
 ---
