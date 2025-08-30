@@ -22,6 +22,7 @@ Esquemático del circuito usado durante la actividad Compuertas Lógicas.
 C++
 
 #include "pico/stdlib.h"
+#include "hardware/structs/sio.h"
 
 #define Boton_1 2
 #define Boton_2 4
