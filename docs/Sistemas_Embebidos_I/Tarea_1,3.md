@@ -79,6 +79,84 @@ int main() {
 
 #### Video del Funcionamiento: Compuertas Lógicas
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MD8Lvo2fJZ4?si=GZWm4bQJwXlk-F4J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
+
+### Ping Pong con Botones
+
+Selector cíclico de 4 LEDs con avance/retroceso qué debe hacer: Mantén un único LED encendido entre LED0..LED3. Un botón AVANZA (0→1→2→3→0) y otro RETROCEDE (0→3→2→1→0). Un push = un paso (antirrebote por flanco: si dejas presionado no repite). En el video demuestra en ambos sentidos.
+
+---
+
+#### Esquema de Conexión Ping Pong con Botones
+
+![Diagrama del sistema](../recursos/imgs/esquematico_ping_tarea3.png)
+
+---
+
+#### Código
+
+``` codigo
+C++
+
+#include "pico/stdlib.h"
+#include "hardware/structs/sio.h"
+
+int main(void) {
+    const uint LED1 = 0;
+    const uint LED2 = 1; 
+    const uint LED3 = 2;
+    const uint LED4 = 3;       
+    const uint BTN1 = 16;
+    const uint BTN2 = 17; 
+
+    const uint32_t MASK = (1u<<LED1) | (1u<<LED2) | (1u<<LED3) | (1u<<LED4);
+
+    gpio_init_mask(MASK);
+    gpio_set_dir_masked(MASK, MASK);  
+    gpio_put_masked(MASK, 1u<<LED1); 
+
+    gpio_init(BTN1);
+    gpio_set_dir(BTN1,0);
+    gpio_pull_up(BTN1);   
+    gpio_init(BTN2);
+    gpio_set_dir(BTN2,0);
+    gpio_pull_up(BTN2); 
+
+    int pos=LED1;
+    int preb1 = 1;
+    int preb2 = 1;
+
+    while (true) {
+
+        if (gpio_get(BTN1)==0 && preb1 == 1){
+            if(pos==LED4) pos=LED1;
+            else 
+            pos++;
+            gpio_put_masked(MASK, (1u<<pos));
+        }
+
+        if (gpio_get(BTN2)==0 && preb2 == 1){
+
+            if (pos==LED1)pos=LED4;
+            else 
+            pos--;
+            gpio_put_masked(MASK, (1u<<pos));
+        }
+
+        preb1 = gpio_get(BTN1);
+        preb2 = gpio_get(BTN2);
+
+        sleep_ms (200);
+
+    }
+}
+
+```
+
+---
+
+#### Video del Funcionamiento: Compuertas Lógicas
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O4gaQW-YsDw?si=5BoyQ03gQ8n0L9by" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
