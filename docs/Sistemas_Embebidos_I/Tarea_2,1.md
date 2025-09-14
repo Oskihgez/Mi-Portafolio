@@ -146,7 +146,7 @@ int main() {
 
 ---
 
-#### Resultado del Osciloscópio
+#### Resultado en el Osciloscópio
 
 ![Diagrama del sistema](../recursos/imgs/osciloscopio2_t2.1.jpeg)
 
