@@ -127,7 +127,7 @@ int main() {
 
 #### Video del Funcionamiento: LEDs a Distintas Frecuencias
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qm4KBHTvx58?si=X9VwAZexVZYnE7sp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
@@ -180,6 +180,8 @@ volatile int velocidad = 450; // velocidad inicial de la pelota
 const int velocidad_max = 150; 
 const int velocidad_min = 1050; 
 const int cambio = 150; 
+
+repeating_timer_t timer;
 
 //esto pasa cuando alguno de los botones se presiono
 void juan_perez(uint gpio, uint32_t events){
@@ -271,8 +273,6 @@ int main() {
     gpio_set_irq_enabled(Boton_Len, GPIO_IRQ_EDGE_RISE, true);
     gpio_set_irq_enabled(Boton_Rap, GPIO_IRQ_EDGE_RISE, true);
 
-    repeating_timer_t timer;
-
     while (direc == 0) { // mientras que no se haya presionado ningun boton, el led de en medio esta encendido
       gpio_put(LED_3, 1);
       if (boton_d) {      //cuando el boton derecho se presiona la variable direc es 1, por lo que la pelota va a la izquierda        
@@ -297,3 +297,5 @@ int main() {
 ---
 
 #### Video del Funcionamiento: Ping Pong con Diferentes Velocidades
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9HcDh2yHk3g?si=Ephz5xrgjEIMUNW3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
