@@ -20,8 +20,7 @@ Esquemático del circuito usado durante la actividad LEDs a diferentes frecuenci
 
 #### Código
 
-``` codigo
-C++
+```C++
 
 #include "pico/stdlib.h"
 #include "hardware/irq.h"
@@ -147,8 +146,7 @@ Esquemático del circuito usado durante la actividad Ping Pong con distintas vel
 
 #### Código
 
-``` codigo
-C++
+```C++
 
 #include "pico/stdlib.h"
 #include "hardware/structs/sio.h"

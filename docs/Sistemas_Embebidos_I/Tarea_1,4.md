@@ -40,8 +40,7 @@ Esquemático del circuito usado durante la actividad Juego Ping Pong.
 
 #### Código
 
-``` codigo
-C++
+```C++
 
 #include "pico/stdlib.h"
 #include "hardware/structs/sio.h"

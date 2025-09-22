@@ -24,8 +24,7 @@ Genera una onda cuadrada por toggle de un pin de salida en la ISR de ALARM0, con
 
 Blink con timer (SDK alto nivel)
 
-``` codigo
-C++
+```C++
 
 #include "pico/stdlib.h"
 #include "pico/time.h"
@@ -85,8 +84,7 @@ Para la comparación se usó el código anterior y el siguiente:
 
 Blink con timer de sistema (bajo nivel)
 
-``` codigo
-C++
+```C++
 
 // Blink con timer de sistema (bajo nivel): programando ALARM0 e IRQ
 #include "pico/stdlib.h"

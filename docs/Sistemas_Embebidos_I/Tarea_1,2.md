@@ -15,8 +15,7 @@ Esquemático del circuito usado durante la actividad.
 En cuatro leds debe mostrarse cada segundo la representacion binaria del 0 al 15.
 
 #### Código
-``` codigo
-C++
+```C++
 
 #include "pico/stdlib.h"
 #include "hardware/structs/sio.h"
@@ -72,8 +71,7 @@ Correr un “1” por cuatro LEDs P0..P3 y regresar.
 
 #### Código
 
-``` codigo
-C++
+```C++
 
 #include "pico/stdlib.h"
 #include "hardware/structs/sio.h"
@@ -131,8 +129,7 @@ Representar la secuencia de Grey con 4 LEDs.
 
 #### Código
 
-``` codigo
-C++
+```C++
 
 #include "pico/stdlib.h"
 #include "hardware/structs/sio.h"

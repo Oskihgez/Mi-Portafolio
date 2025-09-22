@@ -18,8 +18,7 @@ Esquemático del circuito usado durante la actividad Compuertas Lógicas.
 
 #### Código
 
-``` codigo
-C++
+```C++
 
 #include "pico/stdlib.h"
 #include "hardware/structs/sio.h"
@@ -97,8 +96,7 @@ Selector cíclico de 4 LEDs con avance/retroceso qué debe hacer: Mantén un ún
 
 #### Código
 
-``` codigo
-C++
+```C++
 
 #include "pico/stdlib.h"
 #include "hardware/structs/sio.h"
