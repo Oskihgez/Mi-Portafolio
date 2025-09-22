@@ -50,8 +50,8 @@ Esquemático del circuito usado durante el reto.
 #define Boton_VE 19
 #define Boton_AM 18
  
-int Rondas = 3; //Número de rondas
-int Secuencia[3];//Tamaño del array para guardar la secuencia
+int Rondas = 15; //Número de rondas
+int Secuencia[15];//Tamaño del array para guardar la secuencia
  
 int leer_boton() {     //Funcion para leer el boton
     while (true) {
