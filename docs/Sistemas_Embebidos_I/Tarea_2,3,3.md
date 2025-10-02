@@ -34,6 +34,8 @@ Conexion:
 
 3. El punto entre resistencia y capacitor es la salida filtrada, que se conecta al osciloscopio.
 
+---
+
 ### Código
 
 ```C++

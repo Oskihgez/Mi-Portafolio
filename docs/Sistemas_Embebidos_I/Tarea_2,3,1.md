@@ -104,6 +104,7 @@ int main() {
 }
 
 ```
+
 ---
 
 #### Video del Funcionamiento: Control de Duty Cycle y Motor DC
