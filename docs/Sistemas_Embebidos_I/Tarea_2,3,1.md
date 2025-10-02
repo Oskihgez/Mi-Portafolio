@@ -38,6 +38,7 @@ Esquemático del circuito usado durante la actividad Control de Motor DC.
 ### Código
 
 ```C++
+
 #include "pico/stdlib.h"
 #include "hardware/pwm.h"
  
@@ -100,6 +101,7 @@ int main() {
         sleep_ms(10);
     }
 }
+
 ```
 ---
 
