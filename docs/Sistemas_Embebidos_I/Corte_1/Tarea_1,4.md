@@ -2,7 +2,7 @@
 
 ---
 
-### Juego Ping Pong 
+### Juego de Ping Pong 
 
 Programar un mini-Pong con 5 LEDs en línea y 2 botones usando interrupciones (ISR) para registrar el “golpe” del jugador exactamente cuando la “pelota” (un LED encendido) llega al extremo de su lado.
 
