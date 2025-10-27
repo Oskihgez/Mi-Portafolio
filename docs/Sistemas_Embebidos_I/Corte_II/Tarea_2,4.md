@@ -1,13 +1,15 @@
-# Tarea 8 UART
+## Comunicación UART
+
 ---
  
-## 1) Botón con instrucción "LED ON - LED OFF"
+### Botón con instrucción "LED ON - LED OFF"
  
 Este código permite encender y apagar un LED mediante un botón físico.
 Cada vez que se presiona el botón, el LED cambia de estado: si está apagado se enciende (“LED ON”) y si está encendido se apaga (“LED OFF”).
+
+---
  
- 
-**Código Recepción**
+#### Código Recepción
  
 ```C++
  
@@ -62,7 +64,7 @@ int main() {
 ```
  
  
-**Código Envío**
+#### Código Envío
  
 ```C++
 #include "pico/stdlib.h"
@@ -120,19 +122,21 @@ int main() {
  
 ```
  
-**Video**
+#### Video
  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hItRuD8XJHQ?si=8YOV_0s4Jcjccc1J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
  
  
 ---
  
-## 2) Terminal con instrucción "LED ON - LED OFF"
+### Terminal con instrucción "LED ON - LED OFF"
  
 Este código permite controlar el encendido y apagado de un LED desde el monitor serial.
 El usuario escribe los comandos “LED ON” o “LED OFF” en la terminal, y el microcontrolador ejecuta la acción correspondiente.
- 
-**Código Recepción**
+
+---
+
+#### Código Recepción
  
  
 ```C++
@@ -194,10 +198,8 @@ int main() {
  
  
 ```
- 
- 
-**Código Envío**
- 
+
+#### Código Envío
  
 ```C++
  
@@ -257,11 +259,8 @@ int main() {
     return 0;
 }
  
- 
- 
- 
 ```
  
-**Video**
+#### Video
  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mgG0l3hQ_20?si=8YOV_0s4Jcjccc1J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
