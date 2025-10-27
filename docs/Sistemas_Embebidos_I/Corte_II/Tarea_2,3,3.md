@@ -91,9 +91,9 @@ int main() {
 
 ### Señal sin Filtro RC
 
-![Diagrama del sistema](../recursos/imgs/osciloscopio1_t2.2.3.jpeg)
+![Diagrama del sistema](../recursos/imgs/osciloscopio1_t2,2,3.jpeg)
 
 ### Señal con Filtro RC
 
-![Diagrama del sistema](../recursos/imgs/osciloscopio2_t2.2.3.jpeg)
+![Diagrama del sistema](../recursos/imgs/osciloscopio2_t2,2,3.jpeg)
 
