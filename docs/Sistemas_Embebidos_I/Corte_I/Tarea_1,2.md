@@ -6,7 +6,7 @@
 
 Esquemático del circuito usado durante la actividad.
 
-![Diagrama del sistema](../recursos/imgs/esquematico_tarea2.jpg)
+![Diagrama del sistema](imgs/esquematico_tarea2.jpg)
 
 ---
 

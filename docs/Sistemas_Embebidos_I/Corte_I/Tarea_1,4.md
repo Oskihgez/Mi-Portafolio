@@ -34,7 +34,7 @@ Reglas del juego:
 
 Esquemático del circuito usado durante la actividad Juego Ping Pong.
 
-![Diagrama del sistema](../recursos/imgs/esquematico_tarea4.png)
+![Diagrama del sistema](imgs/esquematico_tarea4.png)
 
 ---
 

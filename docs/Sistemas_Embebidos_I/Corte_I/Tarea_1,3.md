@@ -12,7 +12,7 @@ Compuertas básicas AND / OR / XOR con 2 botones qué debe hacer: Con dos botone
 
 Esquemático del circuito usado durante la actividad Compuertas Lógicas.
 
-![Diagrama del sistema](../recursos/imgs/esquematico_compuertas_tarea3.png)
+![Diagrama del sistema](imgs/esquematico_compuertas_tarea3.png)
 
 ---
 
@@ -90,7 +90,7 @@ Selector cíclico de 4 LEDs con avance/retroceso qué debe hacer: Mantén un ún
 
 #### Esquema de Conexión Ping Pong con Botones
 
-![Diagrama del sistema](../recursos/imgs/esquematico_ping_tarea3.png)
+![Diagrama del sistema](imgs/esquematico_ping_tarea3.png)
 
 ---
 

@@ -32,7 +32,7 @@ Documentar:
 
 Esquemático del circuito usado durante la actividad Control de Motor DC.
 
-![Diagrama del sistema](../recursos/imgs/esquematico_tarea7,1.png)
+![Diagrama del sistema](imgs/esquematico_tarea7,1.png)
 
 ---
 

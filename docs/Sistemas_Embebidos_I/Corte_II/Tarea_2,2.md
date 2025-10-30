@@ -14,7 +14,7 @@ Se intento activar la cuarta alarma “ALARMA3” pero en ningún momento esta a
 
 Esquemático del circuito usado durante la actividad LEDs a diferentes frecuencias.
 
-![Diagrama del sistema](../recursos/imgs/esquematico_tarea6,1.png)
+![Diagrama del sistema](imgs/esquematico_tarea6,1.png)
 
 ---
 
@@ -140,7 +140,7 @@ Modificar su pong, para tener dos botones adicionales, que suban y bajen la velo
 
 Esquemático del circuito usado durante la actividad Ping Pong con distintas velocidades.
 
-![Diagrama del sistema](../recursos/imgs/esquematico_tarea6,2.png)
+![Diagrama del sistema](imgs/esquematico_tarea6,2.png)
 
 ---
 

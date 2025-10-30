@@ -28,7 +28,7 @@ Reglas del juego (obligatorias)
 
 Esquemático del circuito usado durante el reto.
 
-![Diagrama del sistema](../recursos/imgs/examen_1.png)
+![Diagrama del sistema](imgs/examen_1.png)
 
 ---
 
