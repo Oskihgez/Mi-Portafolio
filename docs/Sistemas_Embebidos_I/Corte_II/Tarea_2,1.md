@@ -146,7 +146,7 @@ int main() {
 
 #### Resultado en el Osciloscópio
 
-![Diagrama del sistema](imgs/osciloscopio2_t2.1.jpeg)
+![Diagrama del sistema](imgs/osciloscopio2_t2,1.jpeg)
 
 La señal  del segundo código tuvo un periodo promedio de 79.968 ms contra el periodo esperado de 80 ms dando como resultado una tolerancia del 0.04%, con un jitter aproximado de 200 µs y un voltaje de 1.54 v.
 

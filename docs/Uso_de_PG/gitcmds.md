@@ -66,7 +66,7 @@ git pull origin main
 ---
 ## Flujo típico de trabajo
 
-![Diagrama de flujo de Git](recursos/imgs/git_diagram.png)
+![Diagrama de flujo de Git](imgs/git_diagram.png)
 
 1. **Traer cambios del remoto**  
    ```bash
