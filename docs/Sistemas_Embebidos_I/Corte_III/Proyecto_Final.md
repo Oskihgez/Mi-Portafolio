@@ -1,8 +1,9 @@
-
 ## Ratón resuelve laberintos
- 
+
  El proyecto Micromouse consiste en diseñar y programar un robot móvil autónomo capaz de explorar un laberinto, construir un mapa y ejecutar una carrera rápida (fast run) desde el inicio hasta el objetivo en el centro.
- 
+
+---
+
 **Código**
  
 ```C++
@@ -574,13 +575,18 @@ while(true) {
 }
  
 ```
-**Esquematico de conexión**
+
+---
+
+### Esquematico de conexión
  
 Esquematico del ratón.
 
 ![Diagrama del sistema](../recursos/imgs/ratonesquematico.png)
- 
-**Video**
+
+---
+
+### Video
 
 Funcionamiento del ratón.
  
